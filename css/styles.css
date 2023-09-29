@@ -1,0 +1,259 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #1c2225;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 375px) {
+    .container {
+      max-width: 375px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding: 0 32px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding: 0 100px;
+    }
+  }
+
+
+
+
+  
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #000000 ;
+    text-align: left;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/aboutus/elements.png) ;  
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover; 
+	margin: 40px auto;
+	position: relative;
+    padding: 72px 0;
+}
+.aboutus img {
+    max-width: 100%;}
+
+
+
+   
+    @media (min-width: 1280px) {
+        .aboutus-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+        .aboutus-img {
+            width: 100%;
+            
+        } 
+        .aboutus {
+            margin: 100px 75px;
+        }
+        
+
+        
+    }  
+
+
+
+
+
+
+
+    /* .list-ourteam {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        justify-content: center;
+      }
+      .item-ourteam {
+          width: calc((100% -24px)/2);
+      } */
+  
+
+
+
+/* @media screen and (max-width: 767px) {
+    .hero {
+        padding-top: 72px;
+        padding-bottom: 72px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/mobilehero1x.jpg');
+    }
+
+    
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/mobilehero2x.jpg');
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .hero {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/tablethero1x.jpg');
+    }
+
+    
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157px),
+screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/tablethero2x.jpg');
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/desktophero1x.jpg');
+    }
+
+   
+
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px),
+screen and (max-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/desktophero2x.jpg');
+    }
+} */
+
+
+.aboutus-title {
+    color: #FCF9F9;
+    font-weight: 500;
+    font-size: 32px;
+   	font-family: Manrope;
+	font-style: normal;
+	line-height: 1.4;
+	letter-spacing: 0.03em;
+	margin-bottom: 40px;
+}
+	
+.aboutus-text {
+    display: block;
+    color: rgba(252, 249, 249, 0.4);
+    font-weight: 400;
+    font-size: 14px;
+   	font-family: Manrope;
+	font-style: normal;
+	line-height: 1.4;
+	letter-spacing: 0.04em;
+    margin-bottom: 50px;
+	
+}
+.one {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	.aboutus-title {
+		
+		font-size: 44px;
+		line-height: 1.45;
+
+
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
