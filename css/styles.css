@@ -70,7 +70,6 @@ body {
     flex-direction: column;
     position: relative;
     text-align: left;
-    /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/aboutus/elements.png) ;   */
     background-repeat: no-repeat;
     background-size: cover; 
 	margin: 40px auto;
@@ -78,7 +77,9 @@ body {
     
 }
 .aboutus img {
-    width: 100%;}
+    width: 100%;
+    
+  }
 
 
 
@@ -103,75 +104,13 @@ body {
             margin-top: 45px;
             margin-bottom: 45px;
             margin-right: 50px;
+            
            
             
         } 
 
         
     }  
-
-
-  
-
-
-
-/* @media screen and (max-width: 767px) {
-    .aboutus {
-        
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/aboutus/aboutusmobile.jpg');
-    }
-
-    
-}
-
-@media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
-    .aboutus {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/aboutus/aboutusmobile2x.jpg');
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-    .aboutus {
-        
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/aboutus/aboutustablet.jpg');
-    }
-
-    
-}
-
-@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px),
-screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px) {
-    .aboutus {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/aboutus/aboutusmobile2x.jpg');
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .aboutus {
-        
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/aboutus/aboutus.jpg');
-    }
-
-   
-
-}
-
-@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
-screen and (min-resolution: 2dppx) and (min-width: 1158px),
-screen and (max-device-pixel-ratio: 2) and (min-width: 1158px) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/aboutus/aboutus2x.jpg');
-    }
-} */
 
 
 .aboutus-title {
