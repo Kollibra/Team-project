@@ -64,23 +64,21 @@ body {
 
 
 
-  
+
 .aboutus {
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: #000000 ;
     text-align: left;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/aboutus/elements.png) ;  
+    /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/aboutus/elements.png) ;   */
     background-repeat: no-repeat;
-    /* background-position: center; */
     background-size: cover; 
 	margin: 40px auto;
 	position: relative;
-    padding: 72px 0;
+    
 }
 .aboutus img {
-    max-width: 100%;}
+    width: 100%;}
 
 
 
@@ -91,44 +89,37 @@ body {
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-between;
+            
         }
+       
         .aboutus-img {
-            width: 100%;
+            min-width: 594px;
+            height: 545px;
             
         } 
-        .aboutus {
-            margin: 100px 75px;
-        }
         
+        .aboutus-main {
+            display: block;
+            margin-top: 45px;
+            margin-bottom: 45px;
+            margin-right: 50px;
+           
+            
+        } 
 
         
     }  
 
 
-
-
-
-
-
-    /* .list-ourteam {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 64px 24px;
-        justify-content: center;
-      }
-      .item-ourteam {
-          width: calc((100% -24px)/2);
-      } */
   
 
 
 
 /* @media screen and (max-width: 767px) {
-    .hero {
-        padding-top: 72px;
-        padding-bottom: 72px;
+    .aboutus {
+        
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/mobilehero1x.jpg');
+            url('../images/aboutus/aboutusmobile.jpg');
     }
 
     
@@ -137,38 +128,36 @@ body {
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
-    .hero {
+    .aboutus {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/mobilehero2x.jpg');
+            url('../images/aboutus/aboutusmobile2x.jpg');
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-    .hero {
-        padding-top: 112px;
-        padding-bottom: 112px;
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .aboutus {
+        
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/tablethero1x.jpg');
+            url('../images/aboutus/aboutustablet.jpg');
     }
 
     
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157px),
-screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px) {
-    .hero {
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px),
+screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px) {
+    .aboutus {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/tablethero2x.jpg');
+            url('../images/aboutus/aboutusmobile2x.jpg');
     }
 }
 
-@media screen and (min-width: 1158px) {
-    .hero {
-        padding-top: 188px;
-        padding-bottom: 188px;
+@media screen and (min-width: 1280px) {
+    .aboutus {
+        
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/desktophero1x.jpg');
+            url('../images/aboutus/aboutus.jpg');
     }
 
    
@@ -180,18 +169,16 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px),
 screen and (max-device-pixel-ratio: 2) and (min-width: 1158px) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/desktophero2x.jpg');
+            url('../images/aboutus/aboutus2x.jpg');
     }
 } */
 
 
 .aboutus-title {
-    color: #FCF9F9;
+    color: rgba(252, 249, 249, 1);
     font-weight: 500;
     font-size: 32px;
-   	font-family: Manrope;
-	font-style: normal;
-	line-height: 1.4;
+   	line-height: 1.4;
 	letter-spacing: 0.03em;
 	margin-bottom: 40px;
 }
@@ -201,8 +188,6 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1158px) {
     color: rgba(252, 249, 249, 0.4);
     font-weight: 400;
     font-size: 14px;
-   	font-family: Manrope;
-	font-style: normal;
 	line-height: 1.4;
 	letter-spacing: 0.04em;
     margin-bottom: 50px;
@@ -214,13 +199,15 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1158px) {
 
 @media (min-width: 768px) {
 	.aboutus-title {
-		
 		font-size: 44px;
 		line-height: 1.45;
 
-
-		
+    	
 	}
+    .aboutus-text {
+        font-size: 16px;
+	    line-height: 1.4;
+    }
 }
 
 
