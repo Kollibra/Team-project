@@ -1,10 +1,10 @@
 
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 /* Reset styles */
 h1,
@@ -72,14 +72,15 @@ body {
     text-align: left;
     background-repeat: no-repeat;
     background-size: cover; 
-	margin: 40px auto;
-	position: relative;
+	  margin: 40px auto;
+	  position: relative;
     
 }
-.aboutus img {
-    width: 100%;
-    
-  }
+
+    .aboutus-img {
+      width: 100%;
+    }
+  
 
 
 
@@ -96,8 +97,11 @@ body {
         .aboutus-img {
             min-width: 594px;
             height: 545px;
+           
             
         } 
+
+        
         
         .aboutus-main {
             display: block;
